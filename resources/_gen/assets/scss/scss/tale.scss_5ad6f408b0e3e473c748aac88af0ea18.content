@@ -6,7 +6,7 @@
 
 html,
 body {
-  color: #555;
+  color: black;
   background-color: #fff;
   margin: 0;
   padding: 0; }
@@ -411,7 +411,7 @@ footer,
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
-    color: #555;
+    color: black;
     display: inline-block;
     margin: 0;
     padding-right: 0.2rem;
@@ -428,7 +428,7 @@ footer,
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
-    color: #555;
+    color: black;
     display: inline-block;
     opacity: 0.6;
     padding: 0 2rem 0 0; }
@@ -437,7 +437,7 @@ footer,
     .nav li:hover, .nav li:focus {
       opacity: 1; }
   .nav a {
-    color: #555;
+    color: black;
     font-family: "Times New Roman", Times, serif; }
 
 @media (min-width: 600px) {
@@ -453,7 +453,7 @@ footer {
   padding: 2rem 0;
   text-align: center; }
   footer span {
-    color: #555;
+    color: black;
     font-size: 0.8rem; }
 
 .pagination {
@@ -469,7 +469,7 @@ footer {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    color: #555;
+    color: black;
     font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
     font-size: 1.1rem;
     opacity: .6; }
@@ -479,7 +479,7 @@ footer {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    color: #555;
+    color: black;
     position: absolute; }
     .pagination .arrow:hover, .pagination .arrow:focus {
       opacity: .6;
@@ -491,7 +491,7 @@ footer {
 
 .catalogue-item {
   border-bottom: 1px solid #e5e5e5;
-  color: #555;
+  color: black;
   display: block;
   padding: 2rem 0; }
   .catalogue-item:hover .catalogue-line,
