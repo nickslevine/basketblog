@@ -14,12 +14,34 @@ Still, given how often they're discussed, it's worth getting a basic sense of wh
 
 It turns out, not very.
 
-I downloaded box scores from the last 5 NBA seasons (6,561 games) and calculated how often the winner of each game 'won' each box score stat in that game. 
+I downloaded box scores from the last 5 NBA seasons (6,561 games) and calculated how often the winner of each game 'won' each box score stat in that game. (See the bottom of the post for a bar chart).
 
-![Box score stats by share of winners](/img/01_box_score_winners.svg)
+| Stat                              | % of games where winner has more of each stat |
+| --------------------------------- | --------------------------------------------- |
+| Field goal %                      | 80%                                           |
+| Made field goals                  | 74%                                           |
+| Defensive rebounds                | 71%                                           |
+| Three point %                     | 70%                                           |
+| Assists                           | 67%                                           |
+| Made three point field goals      | 61%                                           |
+| Free throw %                      | 55%                                           |
+| Blocks                            | 54%                                           |
+| Attempted free throws             | 54%                                           |
+| Steals                            | 54%                                           |
+| Attempted three point field goals | 50%                                           |
+| Attempted field goals             | 45%                                           |
+| Offensive rebounds                | 44%                                           |
+| Turovers                          | 39%                                           |
+| Personal fouls                    | 39%                                           |
+
+
+<br>
+
 
 The strongest association was with field goal percentage: over the last five seasons, the team that has made a higher share of its field goals has won the game 80% of the time. Only two other team stats I looked at were associated with winning more than 70% of the time: the number of field goals made and the number of defensive rebounds. 
 
 Other numbers had very weak assocations. The team with more attempted threes, more steals, more free throw attempts, more blocks, and a higher free throw percentage rate only won between 50% and 55% of the time. 
 
 It was also interesting that apparently negative stats such as turnovers and personal fouls did not have particularly strong associations with losing: losers only have more of each of these stats about 60% of the time. 
+
+![Box score stats by share of winners](/img/01_box_score_winners.svg)
